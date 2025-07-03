@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(241, 225, 255);  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin: 5px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+#poem-form{
+    background-color: white;
+    height: 90px;
+    width: 45%;
+    border-radius: 15px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.poem-input{
+    border-color: rgb(192, 192, 192);
+    border-style:solid;
+    border-radius: 40px;
+    height: 50px;
+    width: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+}
+
+.poem-btn{
+    background-color: rgb(183, 102, 253);
+    color: aliceblue;
+    border-style: none;
+    border-radius: 40px;
+    width: 30%;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.response{
+    height: 250px;
+    width: 45%;
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:flex-end;
+    margin-top: 30px;
+    
+}

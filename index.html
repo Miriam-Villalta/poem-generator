@@ -7,23 +7,29 @@
     <title>Poem AI Generator</title>
   </head>
   <body>
-    <div>
-      <h1>Poem AI Generator</h1>
-      <h2>Coded with lova by Miriam Villalta</h2>
-      <img src="" alt="" />
-    </div>
+    <div class="content">
+      <div class="title">
+        <h1>Poem AI Generator</h1>
+        <h2>Coded with love by Miriam Villalta</h2>
+        <img src="" alt="" />
+      </div>
 
-    <div>
-      <form action="">
-        <input type="text" />
-        <input type="button" value="Generate Poem" />
+      <form action="" id="poem-form">
+        <input
+          type="text"
+          class="poem-input"
+          name="poem-topic"
+          placeholder="What's the topic of the poem?"
+        />
+        <input type="button" value="Generate Poem" class="poem-btn" />
       </form>
+
+      <div class="response">
+        <p class="parr"></p>
+      </div>
+      <div></div>
+      <footer>Copyright</footer>
     </div>
-    <div class="response">
-      <p class="parr"></p>
-    </div>
-    <div></div>
-    <footer>Copyright</footer>
   </body>
   <script src="./src/index.js"></script>
 </html>
