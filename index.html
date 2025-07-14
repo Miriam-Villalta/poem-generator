@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/styles.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <title>Poem AI Generator</title>
   </head>
   <body>
@@ -18,10 +19,11 @@
         <input
           type="text"
           class="poem-input"
+          id="request-input"
           name="poem-topic"
           placeholder="What's the topic of the poem?"
         />
-        <input type="button" value="Generate Poem" class="poem-btn" />
+        <input type="submit" value="Generate Poem" class="poem-btn" />
       </form>
 
       <div class="response" id="poem-response"></div>
